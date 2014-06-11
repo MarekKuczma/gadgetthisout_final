@@ -76,15 +76,15 @@ a{
 ::selection
 {
 color:#FFF;
-background: #C0392B;
+background: #2980b9;
 }
 ::-moz-selection
 {
 color:#FFF;
-background: #C0392B;
+background: #2980b9;
 }/********** HEADER *********/
 .header{
-    background: #E74C3C;
+    background: #3498db;
     color: #FFF;
     width: 100%;
     position: fixed;
@@ -103,7 +103,7 @@ background: #C0392B;
     display: block;
     width: 24px;
     height: 24px;
-    background: #C0392B;
+    background: #2980b9;
     position: absolute;
     top: 36px;
     cursor: pointer;
@@ -129,7 +129,7 @@ background: #C0392B;
 .nav{
     position: relative;
     bottom: 0px;
-    background: #E74C3C;
+    background: #3498db;
     height: 48px;
     width: 100%;
     text-align: center;
@@ -151,7 +151,7 @@ background: #C0392B;
     display: block;
 }
 .nav_a:hover{
-    background: #C0392B;
+    background: #2980b9;
 }
 .header, .logo, .button, .archive, .container_header, .big_button{
   transition: all .3s;
@@ -183,7 +183,7 @@ background: #C0392B;
 .big_title{
     font-size: 36px;
     line-height: 48px;
-    color: #E74C3C;
+    color: #3498db;
     text-align: center;
     margin-top: 72px;
 }
@@ -222,7 +222,7 @@ background: #C0392B;
     min-height: 72px;
     width: 100%;
     margin: 0 auto;
-    background: #E74C3C;
+    background: #3498db;
     color: #FFF;
     font-size: 36px;
     line-height: 72px;
@@ -263,14 +263,14 @@ p{
     display: block;
     height: 48px;
     width: 320px;
-    border: 1px solid #E74C3C;
+    border: 1px solid #3498db;
     background: #FFF;
-    color: #E74C3C;
+    color: #3498db;
     text-align: center;
     margin: 48px auto;
 }
 .big_button:hover{
-    background: #E74C3C;
+    background: #3498db;
     color: #FFF;
 }
 .listing{
@@ -286,8 +286,8 @@ p{
     padding-left: 24px;
 }
 .gadgetthisout{
-   color: #E74C3C;
-   border-bottom: 1px solid #E74C3C;
+   color: #3498db;
+   border-bottom: 1px solid #3498db;
    font-size: 14px;
 }
 
@@ -308,14 +308,14 @@ label{
     text-align: center;
 }
 input:focus{
-    outline: 1px solid #C0392B;
+    outline: 1px solid #2980b9;
 }
 input{
     cursor: pointer;
     display: block;
     color: #000;
     background: #FFF;
-    border: 1px solid #E74C3C;
+    border: 1px solid #3498db;
     font-size: 20px;
     text-align: center;
     height: 36px;
@@ -326,16 +326,16 @@ input{
 input[type=submit]{
     cursor: pointer;
     display: block;
-    color: #E74C3C;
+    color: #3498db;
     background: #FFF;
-    border: 1px solid #E74C3C;
+    border: 1px solid #3498db;
     font-size: 20px;
     height: 48px;
     width: 298px;
     margin-top: 48px;
 }
 input[type=submit]:hover{
-    background: #E74C3C;
+    background: #3498db;
     color: #FFF;
 }
 .big_button_two{
@@ -350,7 +350,7 @@ input[type=submit]:hover{
     line-height: 24px;
     font-size: 17px;
     font-weight: 700;
-    color: #E74C3C;
+    color: #3498db;
     margin: 0 0 24px 0;
 }
 .register_ok{
@@ -365,7 +365,7 @@ input[type=submit]:hover{
     text-decoration: none;
     color: #000;
     padding-bottom: 3px;
-    border-bottom: 1px solid #E74C3C;
+    border-bottom: 1px solid #3498db;
 }
 .loggedin:hover{
     border-bottom: 1px solid transparent;
@@ -396,7 +396,7 @@ input[type=submit]:hover{
 }
 /********** FOOTER *********/
 .footer{
-    background: #E74C3C;
+    background: #3498db;
     padding: 72px 0;
     color: #FFF;
     margin-top: 72px;
@@ -417,13 +417,13 @@ input[type=submit]:hover{
     margin: 0;
 }
 .active{
-    background: #C0392B;
+    background: #2980b9;
 }
 .center_title{
     text-align: center;
 }
 .color{
-    color: #E74C3C;
+    color: #3498db;
 }
 .bold{
     font-weight: 700;
@@ -447,7 +447,7 @@ input[type=submit]:hover{
     display: block;
     width: 198px;
     height: 234px;
-    border: 1px solid #e74c3c;
+    border: 1px solid #3498db;
     display: none;
     z-index: 10;
 }
@@ -468,8 +468,8 @@ input[type=submit]:hover{
    text-align: center; 
 }
 .credits_a{
-   color: #E74C3C;
-   border-bottom: 1px solid #E74C3C;
+   color: #3498db;
+   border-bottom: 1px solid #3498db;
 }
 
 .credits_a:hover{

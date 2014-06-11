@@ -6,7 +6,7 @@ include 'core/init.php';
 <head>
   <meta charset="utf-8">
   <title>Previous Weeks</title>
-  <meta name="description" content="">
+  <meta name="description" content="GadgetThisOut is a school project not for commercial use">
   <meta name="author" content="Marek Kuczma">
   <link rel="stylesheet" href="css/styles.css">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -42,59 +42,36 @@ include 'core/init.php';
   			<h1>Previously on<br>Gadget<span class="logo_span">This</span>Out</h1>
   		</div><!-- END big title-->
 
-  		<div class="title_div"><h1 class="title">Gadget One <span class="archive_span">1/50 left</span></h1></div>
-  		<div class="row">
-  			<div class="container">
-	  			<div class="column float_left no_margin">
-	  				<img class="img" src="photos/netatmo/netatmo_1.png" alt="netatmo box">
-	  			</div><!-- END Column -->
+      <div class="title_div"><h1 class="title">Samsung Galaxy Gear 2neo<span class="archive_span">64/100 left</span></h1></div>
+      <div class="row">
+        <div class="container">
+          <div class="column float_left no_margin">
+            <img class="img" src="photos/gear2neo/big_gear2neo.png" alt="Galaxy Gear 2neo">
+          </div><!-- END Column -->
 
-	  			<div class="column float_left">
-	  				<h2 class="column_title">Weather Station</h2>
-	  				<h3 class="column_small_title">For Smartphones and Tablets</h3>
-	  				<p>This is the weather station by <span class="netatmo">netatmo.</span><br>   
-					This is a really easy and simple way to control you indoor temperature, relative humidity and CO2 readings.</p> 
+          <div class="column float_left">
+            <h3 class="column_small_title">Smartwatch Galaxy Gear 2neo<br><a class="gadgetthisout" href="index.php">gadget this out</a></h3>
+            <p>First of all, what's this famous Galaxy Gear 2neo ? Well the answear is simple... it's a watch, actualy it's more thant just a watch, it's a smartwatch !</p>
+            <p>This little gadget will expand the functionality of your smartphone all you need is the smartwatch and the gearmenager app on your smartphone.</p>
+            </div><!-- END Column -->
+            </div><!-- END Column -->
+        </div><!-- END container-->
+      </div><!-- END ROW-->
 
-					<p>You will be also able to know the weather conditions like temperature, air quality or even barometric pressure by using the Outdoor Module.</p>
-	  			</div><!-- END Column -->
-	  		</div><!-- END container-->
-  		</div><!-- END ROW-->
+      <div class="title_div"><h1 class="title">weather station by net<span class="logo_span">atmo</span><span class="archive_span">00/50 left</span></h1></div>
+      <div class="row">
+        <div class="container">
+          <div class="column float_left no_margin">
+            <img class="img" src="photos/netatmo/netatmo_1.png" alt="netatmo box">
+          </div><!-- END Column -->
 
-  		<div class="title_div"><h1 class="title">Gadget Two <span class="archive_span">2/50 left</span></h1></div>
-  		<div class="row">
-  			<div class="container">
-	  			<div class="column float_right">
-	  				<img class="img" src="photos/netatmo/netatmo_1.png" alt="netatmo box">
-	  			</div><!-- END Column -->
-
-	  			<div class="column float_right no_margin">
-	  				<h2 class="column_title">Weather Station</h2>
-	  				<h3 class="column_small_title">For Smartphones and Tablets</h3>
-	  				<p>This is the weather station by netatmo.<br>   
-					This is a really easy and simple way to control you indoor temperature, relative humidity and CO2 readings.</p> 
-
-					<p>You will be also able to know the weather conditions like temperature, air quality or even barometric pressure by using the Outdoor Module.</p>
-	  			</div><!-- END Column -->
-	  		</div><!-- END container-->
-  		</div><!-- END ROW-->
-
-  		<div class="title_div"><h1 class="title">Gadget Three <span class="archive_span">3/50 left</span></h1></div>
-  		<div class="row">
-  			<div class="container">
-	  			<div class="column float_left no_margin">
-	  				<img class="img" src="photos/netatmo/netatmo_1.png" alt="netatmo box">
-	  			</div><!-- END Column -->
-
-	  			<div class="column float_left">
-	  				<h2 class="column_title">Weather Station</h2>
-	  				<h3 class="column_small_title">For Smartphones and Tablets</h3>
-	  				<p>This is the weather station by netatmo.<br>   
-					This is a really easy and simple way to control you indoor temperature, relative humidity and CO2 readings.</p> 
-
-					<p>You will be also able to know the weather conditions like temperature, air quality or even barometric pressure by using the Outdoor Module.</p>
-	  			</div><!-- END Column -->
-	  		</div><!-- END container-->
-  		</div><!-- END ROW-->
+          <div class="column float_left">
+            <h3 class="column_small_title">The weather station by <span class="netatmo">net<span class="logo_span">atmo</span></span>.<br><a class="gadgetthisout  gadgetthisout_no" href="netatmo.php">gadget this out</a></h3>
+            <p>If you want to have your own personal mini meteo station, or maybe you need to know the co2 level in your room...</p> 
+            <p>It's not a problem anymore... those little modules connect to your smartphone or tablet and send you a bunch of information about weather conditions.</p>
+            </div><!-- END Column -->
+        </div><!-- END container-->
+      </div><!-- END ROW-->
 
   </div><!-- END Content-->
 		

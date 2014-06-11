@@ -1,7 +1,7 @@
 <head>
   <meta charset="utf-8">
   <title></title>
-  <meta name="description" content="">
+  <meta name="description" content="GadgetThisOut is a school project not for commercial use">
   <meta name="author" content="Marek Kuczma">
   <link rel="stylesheet" href="css/styles.css">
   <meta name="viewport" content="width=device-width, initial-scale=1">

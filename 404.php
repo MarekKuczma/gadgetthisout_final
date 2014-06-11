@@ -28,27 +28,24 @@ include 'core/init.php';
       <div class="button menu jeden" title="Show/Hide menu"></div>
     </div><!-- END container-->
   	<div class="nav">
-  		<div class="container">
-  			<ul>
-  				<li class="nav_li"><a class="nav_a" href="#what">Description</a></li>
-  				<li class="nav_li"><a class="nav_a" href="#box">The Box</a></li>
-  				<li class="nav_li"><a class="nav_a" href="#use">Usage</a></li>
-  				<li class="nav_li"><a class="nav_a" href="#more">Accessories</a></li>
-  				<li class="nav_li"><a class="nav_a" href="#buy">I need one</a></li>
-  			</ul>
-  		</div>
-  	</div>
+      <div class="container">
+        <ul>
+          <li class="nav_li"><a class="nav_a" href="index.php">Show me this week's gadget</a></li>
+        </ul>
+      </div>
+    </div>
     
   </div><!-- END Header-->
 
   <div class="content">
 
-  		<div class="big_title margin_top">
-  			<h1>Nice, one more step please...</h1>
-  		</div><!-- END big title-->
+  		<div id="what" class="title_div"><h1 class="column_title center_title color">Upsss...</h1></div>
   		<div class="row">
-        <h2 class="column_title center_title margin_top">Now, you will be redirected to the payment page.</h2>
-        <h2 class="column_title center_title">Thank you, and see you soon.</h2>
+        <h1 class="column_title center_title">You are lost... Please let me help you.</h1>
+
+        <a href="index.php" class="big_button">Click here</a>
+
+        <h1 class="column_title center_title">And you will be back at the main page</h1>
   		</div><!-- END ROW-->
 
   </div><!-- END Content-->

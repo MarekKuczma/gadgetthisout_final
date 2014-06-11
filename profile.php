@@ -1,5 +1,7 @@
 <?php 
 include 'core/init.php';
+
+protect_page();
 include 'includes/overall/header.php';
 ?>
 <div class="row row_two">
@@ -17,41 +19,29 @@ if (isset($_GET['username']) === true && empty($_GET['username']) === false) {
 		<div class="big_title big_title_two">
   			<h1>What you bought until now ...</h1>
   		</div><!-- END big title-->
-  				<div class="row">
-  				<div class="title_div title_div_two"><h1 class="title title_two">netatmo</h1></div>
+  				<div class="row"><!-- row special -->
+  				
+  				<div class="column float_left">
+	  			  	<h1 class="column_title">Samsung Gear 2neo</h1>
+	  			  	<a class="gadgetthisout" href="index.php">gadget this out</a>
+	  				<img class="img_for_profile" src="photos/gear2neo/gear_black_small.png" alt="Black Gear 2neo">
+	  			</div><!-- END Column -->
+
 	  			<div class="column float_left no_margin">
-	  				<img class="img" src="photos/netatmo/netatmo_1.png" alt="netatmo box">
+	  				<h1 class="column_title"><span class="netatmo">net<span class="logo_span">atmo</span></span> Weather Station</h1>
+	  				<a class="gadgetthisout" href="netatmo.php">gadget this out</a>
+	  				<img class="img_for_profile" src="photos/netatmo/netatmo_1.png" alt="netatmo box">
 	  			</div><!-- END Column -->
 
-	  			<div class="column float_left">
-	  				<h2 class="column_title">Weather Station</h2>
-	  				<h3 class="column_small_title">For Smartphones and Tablets</h3>
-	  				<p>This is the weather station by <span class="netatmo">netatmo.</span><br>   
-					This is a really easy and simple way to control you indoor temperature, relative humidity and CO2 readings.</p> 
+	  			</div><!-- end row special -->
 
-					<p>You will be also able to know the weather conditions like temperature, air quality or even barometric pressure by using the Outdoor Module.</p>
-	  			</div><!-- END Column -->
-	  			</div>
-
-	  			<div class="row">
-  				<div class="title_div title_div_two"><h1 class="title title_two">netatmo</h1></div>
-	  			<div class="column float_right">
-	  				<img class="img" src="photos/netatmo/netatmo_1.png" alt="netatmo box">
-	  			</div><!-- END Column -->
-
-	  			<div class="column float_right no_margin">
-	  				<h2 class="column_title">Weather Station</h2>
-	  				<h3 class="column_small_title">For Smartphones and Tablets</h3>
-	  				<p>This is the weather station by <span class="netatmo">netatmo.</span><br>   
-					This is a really easy and simple way to control you indoor temperature, relative humidity and CO2 readings.</p> 
-
-					<p>You will be also able to know the weather conditions like temperature, air quality or even barometric pressure by using the Outdoor Module.</p>
-	  			</div><!-- END Column -->
 	  			</div>
 		</div>
 	<?php
 	} else {
-		echo 'Sorry, that user doesn\'t exist !';
+		//echo 'Sorry, that user doesn\'t exist !';
+		header('Location: 404.php');
+		exit();
 	}
 
 } else {

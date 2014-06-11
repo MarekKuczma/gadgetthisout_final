@@ -4,7 +4,7 @@ include 'includes/overall/header.php';
 
 ?>
 	<div class="container margin_top">
-		<h1>Sorry you need to be logged in to do that!</h1>
+		<h1 class="column_title color">Sorry you need to be logged in to do that!</h1>
 		<p>Please Register.</p>
 	</div><!-- END container -->
 

@@ -25,4 +25,12 @@ $( document ).ready(function() {
         $('.menu').toggleClass("jeden dwa");
     });
 
+    //select accesories
+    $('.click_one').click(function() {
+        $('.selected_one').fadeToggle()
+    });
+    $('.click_two').click(function() {
+        $('.selected_two').fadeToggle()
+    });
+
 });

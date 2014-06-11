@@ -1,5 +1,5 @@
 <div class="container loggedin_container">
-	<h2 class="column_title">Hello, <?php echo $user_data['first_name']; ?>!</h2>
+	<h2 class="column_title">Hello, <?php echo $user_data['first_name']; ?>.</h2>
 	<div class="inner">
 		<ul>
 			<li class="li_loggedin">

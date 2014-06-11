@@ -7,7 +7,7 @@ include 'core/init.php';
 <head>
   <meta charset="utf-8">
   <title>GadgetThisOut</title>
-  <meta name="description" content="">
+  <meta name="description" content="GadgetThisOut is a school project not for commercial use">
   <meta name="author" content="Marek Kuczma">
   <link rel="stylesheet" href="css/styles.css">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -57,6 +57,7 @@ include 'core/init.php';
           <p class="credits_p"><a class="credits_a" target="blanc" href="http://www.webdesignerdepot.com/2013/03/how-to-create-a-resizing-menu-bar/">How to create a resizing menu bar</a></p>
 
           <p class="credits_p bold">Images</p>
+          <p class="credits_p"><a class="credits_a" target="blanc" href="http://www.samsung.com/be_fr/">samsung.com</a></p>
           <p class="credits_p"><a class="credits_a" target="blanc" href="http://www.netatmo.com/en-US/site">netatmo.com</a></p>
           <p class="credits_p"><a class="credits_a" target="blanc" href="https://dribbble.com/shots/1114707-FREE-PSDs-iGravertical-Screen-Layers-iOS-7-Screen-Converter">Balraj Chana FREE PSDs - iGravertical Screen Layers</a></p>
           <p class="credits_p"><a class="credits_a" target="blanc" href="https://play.google.com/store/apps/details?id=com.netatmo.netatmo">Google Play</a></p>
