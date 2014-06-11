@@ -39,7 +39,7 @@
 		$data = '\'' . implode('\', \'', $register_data) . '\'';
 
 		mysql_query("INSERT INTO `users` ($fields) VALUES ($data)");
-		email($register_data['email'], 'Activate your account', "Hello " . $register_data['first_name'] . ",\n\nYou need to activate your account, so use the link below :\n\nhttp://mygadgets.pl/lr2/activate.php?email=" . $register_data['email'] . "&email_code=" . $register_data['email_code'] . " \n\nMarek");
+		email($register_data['email'], 'Activate your account', "Hello " . $register_data['first_name'] . ",\n\nYou need to activate your account, so use the link below :\n\nhttp://gadgetthisout.eu/activate.php?email=" . $register_data['email'] . "&email_code=" . $register_data['email_code'] . " \n\nMarek");
 	}
 
 
